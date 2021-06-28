@@ -82,7 +82,7 @@ h2 {
 .preface {
     width: 300px;
     margin-left: 50px;
-    text-align: right;
+    text-align: left;
 }
 
 /*formatting for personal photos*/
@@ -100,6 +100,11 @@ h2 {
     float:right;
 }
 
+/*about me area*/
+.me {
+    margin-top: 100px;
+}
+
 /*<main> project flex boxes begin*/
 main {
     width: 80%;
@@ -114,9 +119,9 @@ main {
 
 main h2 {
     color:rgb(255, 98, 130);
-    padding: 0 10px 20px;
+    padding: 0px 20px 10px 40px;
     border-bottom: 3px solid midnightblue;
-    font-size: 42px;
+    font-size: 62px;
     text-shadow: 1px 1px 3px black;
 }
 /*flex parent */
