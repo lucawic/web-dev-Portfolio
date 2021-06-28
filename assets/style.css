@@ -37,7 +37,7 @@ header h1 {
 header h1 span {
     color: darkblue;
     text-shadow: 1px 1px 3px black;
-    font-size: 26px;
+    font-size: 30px;
     display: list-item;
     list-style-type: none;
     padding-left: 2px;
@@ -76,7 +76,7 @@ header nav ul li a {
 h2 {
     color: darkblue;
     text-shadow: 1px 1px 3px black;
-    font-size: 34px;
+    font-size: 44px;
 }
 /*formatting for preface b4 pics */
 .preface {
@@ -94,10 +94,11 @@ h2 {
 }
 .surf {
     float: left;
-
+    justify-content: space-between;
 }
 .bailey {
     float:right;
+    justify-content: space-between;
 }
 
 /*about me area*/
@@ -160,3 +161,23 @@ main h2 {
     text-align: left;
     color: darkblue;
 }
+
+.contact {
+    margin-left: 35px;
+    margin-bottom: 50px;
+    font-size: 18px;
+}
+.contact h3 {
+    font-size: 28px;
+}
+
+/*This the media query section*/
+/* MEDIA QUERY FOR SMALLER DESKTOP SCREENS AND SMALLER */
+@media screen and (max-width: 636px) {
+    header{
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column;
+    }
+  }
+  
